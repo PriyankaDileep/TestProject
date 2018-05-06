@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7207F3081E5E762B002A0AFD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7207F3071E5E762B002A0AFD /* Constants.swift */; };
 		729C9C351E567ECE00D80E9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C9C341E567ECE00D80E9E /* AppDelegate.swift */; };
-		729C9C371E567ECE00D80E9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C9C361E567ECE00D80E9E /* ViewController.swift */; };
 		729C9C3A1E567ECE00D80E9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729C9C381E567ECE00D80E9E /* Main.storyboard */; };
 		729C9C3C1E567ECE00D80E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729C9C3B1E567ECE00D80E9E /* Assets.xcassets */; };
 		729C9C3F1E567ECE00D80E9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 729C9C3D1E567ECE00D80E9E /* LaunchScreen.storyboard */; };
+		729C9C501E56881B00D80E9E /* MQConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C9C4F1E56881B00D80E9E /* MQConfiguration.swift */; };
+		729C9C521E56897E00D80E9E /* MQServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C9C511E56897E00D80E9E /* MQServiceManager.swift */; };
+		729C9C541E568F4300D80E9E /* MQHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C9C531E568F4300D80E9E /* MQHomeTableViewController.swift */; };
+		729C9C561E56A73400D80E9E /* EarthQuake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C9C551E56A73400D80E9E /* EarthQuake.swift */; };
+		729C9C591E570F2D00D80E9E /* MQTypeCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C9C581E570F2D00D80E9E /* MQTypeCheck.swift */; };
+		729C9C5C1E57100700D80E9E /* MQCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729C9C5B1E57100700D80E9E /* MQCustomTableViewCell.swift */; };
+		72FBAE831E5E6CDB004D606E /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FBAE821E5E6CDB004D606E /* Parser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7207F3071E5E762B002A0AFD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		729C9C311E567ECE00D80E9E /* MobileQuake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileQuake.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		729C9C341E567ECE00D80E9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		729C9C361E567ECE00D80E9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		729C9C341E567ECE00D80E9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = MobileQuake/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
 		729C9C391E567ECE00D80E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		729C9C3B1E567ECE00D80E9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		729C9C3B1E567ECE00D80E9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		729C9C3E1E567ECE00D80E9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		729C9C401E567ECE00D80E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		729C9C401E567ECE00D80E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		729C9C4F1E56881B00D80E9E /* MQConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQConfiguration.swift; sourceTree = "<group>"; };
+		729C9C511E56897E00D80E9E /* MQServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQServiceManager.swift; sourceTree = "<group>"; };
+		729C9C531E568F4300D80E9E /* MQHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQHomeTableViewController.swift; sourceTree = "<group>"; };
+		729C9C551E56A73400D80E9E /* EarthQuake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarthQuake.swift; sourceTree = "<group>"; };
+		729C9C581E570F2D00D80E9E /* MQTypeCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQTypeCheck.swift; sourceTree = "<group>"; };
+		729C9C5B1E57100700D80E9E /* MQCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQCustomTableViewCell.swift; sourceTree = "<group>"; };
+		72FBAE821E5E6CDB004D606E /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +68,96 @@
 		729C9C331E567ECE00D80E9E /* MobileQuake */ = {
 			isa = PBXGroup;
 			children = (
-				729C9C341E567ECE00D80E9E /* AppDelegate.swift */,
-				729C9C361E567ECE00D80E9E /* ViewController.swift */,
-				729C9C381E567ECE00D80E9E /* Main.storyboard */,
-				729C9C3B1E567ECE00D80E9E /* Assets.xcassets */,
-				729C9C3D1E567ECE00D80E9E /* LaunchScreen.storyboard */,
-				729C9C401E567ECE00D80E9E /* Info.plist */,
+				729C9C461E567EF000D80E9E /* AppDelegate */,
+				729C9C471E567F4900D80E9E /* Controller */,
+				729C9C481E567F8B00D80E9E /* Model */,
+				729C9C491E567FB500D80E9E /* Resources */,
+				729C9C571E570F0B00D80E9E /* Common */,
+				729C9C5A1E570FE400D80E9E /* CustomView */,
+				729C9C4A1E56801700D80E9E /* View */,
 			);
 			path = MobileQuake;
+			sourceTree = "<group>";
+		};
+		729C9C461E567EF000D80E9E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				729C9C341E567ECE00D80E9E /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		729C9C471E567F4900D80E9E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				729C9C531E568F4300D80E9E /* MQHomeTableViewController.swift */,
+			);
+			name = Controller;
+			path = AppDelegate/Controller;
+			sourceTree = "<group>";
+		};
+		729C9C481E567F8B00D80E9E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				729C9C4E1E5687FC00D80E9E /* Configuration */,
+				729C9C4B1E56830300D80E9E /* Service */,
+				729C9C551E56A73400D80E9E /* EarthQuake.swift */,
+				72FBAE821E5E6CDB004D606E /* Parser.swift */,
+				7207F3071E5E762B002A0AFD /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		729C9C491E567FB500D80E9E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				729C9C3B1E567ECE00D80E9E /* Assets.xcassets */,
+				729C9C401E567ECE00D80E9E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		729C9C4A1E56801700D80E9E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				729C9C3D1E567ECE00D80E9E /* LaunchScreen.storyboard */,
+				729C9C381E567ECE00D80E9E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		729C9C4B1E56830300D80E9E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				729C9C511E56897E00D80E9E /* MQServiceManager.swift */,
+			);
+			name = Service;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		729C9C4E1E5687FC00D80E9E /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				729C9C4F1E56881B00D80E9E /* MQConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		729C9C571E570F0B00D80E9E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				729C9C581E570F2D00D80E9E /* MQTypeCheck.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		729C9C5A1E570FE400D80E9E /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				729C9C5B1E57100700D80E9E /* MQCustomTableViewCell.swift */,
+			);
+			name = CustomView;
+			path = View/CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +232,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				729C9C371E567ECE00D80E9E /* ViewController.swift in Sources */,
+				729C9C591E570F2D00D80E9E /* MQTypeCheck.swift in Sources */,
+				729C9C5C1E57100700D80E9E /* MQCustomTableViewCell.swift in Sources */,
+				729C9C501E56881B00D80E9E /* MQConfiguration.swift in Sources */,
 				729C9C351E567ECE00D80E9E /* AppDelegate.swift in Sources */,
+				72FBAE831E5E6CDB004D606E /* Parser.swift in Sources */,
+				729C9C521E56897E00D80E9E /* MQServiceManager.swift in Sources */,
+				729C9C561E56A73400D80E9E /* EarthQuake.swift in Sources */,
+				729C9C541E568F4300D80E9E /* MQHomeTableViewController.swift in Sources */,
+				7207F3081E5E762B002A0AFD /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +253,7 @@
 				729C9C391E567ECE00D80E9E /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		729C9C3D1E567ECE00D80E9E /* LaunchScreen.storyboard */ = {
@@ -158,6 +262,7 @@
 				729C9C3E1E567ECE00D80E9E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -299,6 +404,7 @@
 				729C9C451E567ECE00D80E9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
